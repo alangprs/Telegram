@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		4D5C89CF262FF09200A431FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C89CE262FF09200A431FC /* AppDelegate.swift */; };
 		4D5C89D1262FF09200A431FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C89D0262FF09200A431FC /* SceneDelegate.swift */; };
-		4D5C89D3262FF09200A431FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C89D2262FF09200A431FC /* ViewController.swift */; };
 		4D5C89D6262FF09200A431FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C89D4262FF09200A431FC /* Main.storyboard */; };
 		4D5C89D8262FF09700A431FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C89D7262FF09700A431FC /* Assets.xcassets */; };
 		4D5C89DB262FF09700A431FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C89D9262FF09700A431FC /* LaunchScreen.storyboard */; };
+		4D5C89E5262FF89B00A431FC /* peopleListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C89E4262FF89B00A431FC /* peopleListTableViewController.swift */; };
+		4D5C89E7262FFA1100A431FC /* people.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C89E6262FFA1100A431FC /* people.swift */; };
+		4D5C89EB2630222400A431FC /* chatroomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C89EA2630222400A431FC /* chatroomList.swift */; };
+		4D5C89ED2630246E00A431FC /* chatRoomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C89EC2630246E00A431FC /* chatRoomTableViewController.swift */; };
+		4D5C89EF2630286700A431FC /* chatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C89EE2630286700A431FC /* chatTableViewCell.swift */; };
+		4D5C8A032631E28200A431FC /* set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C8A022631E28200A431FC /* set.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D5C89CB262FF09200A431FC /* Telegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5C89CE262FF09200A431FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D5C89D0262FF09200A431FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D5C89D2262FF09200A431FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D5C89D5262FF09200A431FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D5C89D7262FF09700A431FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D5C89DA262FF09700A431FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D5C89DC262FF09700A431FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5C89E4262FF89B00A431FC /* peopleListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peopleListTableViewController.swift; sourceTree = "<group>"; };
+		4D5C89E6262FFA1100A431FC /* people.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = people.swift; sourceTree = "<group>"; };
+		4D5C89EA2630222400A431FC /* chatroomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatroomList.swift; sourceTree = "<group>"; };
+		4D5C89EC2630246E00A431FC /* chatRoomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatRoomTableViewController.swift; sourceTree = "<group>"; };
+		4D5C89EE2630286700A431FC /* chatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTableViewCell.swift; sourceTree = "<group>"; };
+		4D5C8A022631E28200A431FC /* set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = set.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,10 @@
 		4D5C89C2262FF09200A431FC = {
 			isa = PBXGroup;
 			children = (
+				4D5C8A022631E28200A431FC /* set.swift */,
+				4D5C89EE2630286700A431FC /* chatTableViewCell.swift */,
+				4D5C89E6262FFA1100A431FC /* people.swift */,
+				4D5C89EA2630222400A431FC /* chatroomList.swift */,
 				4D5C89CD262FF09200A431FC /* Telegram */,
 				4D5C89CC262FF09200A431FC /* Products */,
 			);
@@ -58,8 +72,9 @@
 			children = (
 				4D5C89CE262FF09200A431FC /* AppDelegate.swift */,
 				4D5C89D0262FF09200A431FC /* SceneDelegate.swift */,
-				4D5C89D2262FF09200A431FC /* ViewController.swift */,
 				4D5C89D4262FF09200A431FC /* Main.storyboard */,
+				4D5C89EC2630246E00A431FC /* chatRoomTableViewController.swift */,
+				4D5C89E4262FF89B00A431FC /* peopleListTableViewController.swift */,
 				4D5C89D7262FF09700A431FC /* Assets.xcassets */,
 				4D5C89D9262FF09700A431FC /* LaunchScreen.storyboard */,
 				4D5C89DC262FF09700A431FC /* Info.plist */,
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D5C89D3262FF09200A431FC /* ViewController.swift in Sources */,
+				4D5C89ED2630246E00A431FC /* chatRoomTableViewController.swift in Sources */,
+				4D5C89E7262FFA1100A431FC /* people.swift in Sources */,
+				4D5C89EF2630286700A431FC /* chatTableViewCell.swift in Sources */,
+				4D5C89E5262FF89B00A431FC /* peopleListTableViewController.swift in Sources */,
 				4D5C89CF262FF09200A431FC /* AppDelegate.swift in Sources */,
+				4D5C89EB2630222400A431FC /* chatroomList.swift in Sources */,
+				4D5C8A032631E28200A431FC /* set.swift in Sources */,
 				4D5C89D1262FF09200A431FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
